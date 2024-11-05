@@ -1,0 +1,11 @@
+{
+  "name": "cs-recursion",
+  "version": "1.0.0",
+  "description": "Computer Science: Recursion demo using fibonacci & merge sort",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TEKKSUNN <emmanuelleutecson@gmail.com>",
+  "license": "MIT"
+}
