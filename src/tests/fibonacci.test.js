@@ -1,23 +1,18 @@
 import { fibs, fibsRec } from "./fibonacci";
-
-function runTest(testCases, callbackfn) {
-  testCases.forEach((testCase) => {
-    expect(callbackfn(testCase.num)).toStrictEqual(testCase.res);
-  });
-}
+import runTest from "./test-helpers";
 
 it('Fibonacci:normal works as expected', () => {
   const testCases = [
     {
-      num: 8,
+      test: 8,
       res: [0, 1, 1, 2, 3, 5, 8, 13],
     },
     {
-      num: 3,
+      test: 3,
       res: [0, 1, 1]
     },
     {
-      num: 1,
+      test: 1,
       res: [0]
     },
   ];
