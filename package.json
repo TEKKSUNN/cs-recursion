@@ -1,6 +1,6 @@
 {
   "name": "@tekksunn/cs-recursion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Computer Science: Recursion demo using fibonacci & merge sort",
   "main": "index.js",
   "scripts": {
