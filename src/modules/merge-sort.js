@@ -1,4 +1,4 @@
-export default function mergeSort(arr) {
+export function mergeSort(arr) {
   // Base case: if the array has 1 or no elements, it's already sorted
   if (arr.length <= 1) {
     return arr;

@@ -1,4 +1,4 @@
-import mergeSort from "../modules/merge-sort";
+import { mergeSort } from "../modules/merge-sort";
 import runTest from "./test-helpers";
 
 it("Merge sort works as expected", () => {
